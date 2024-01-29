@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Atento User</string>
+    <string name="nav_header_subtitle">crud@atento.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_users">Usuários</string>
+    <string name="menu_products">Produtos</string>
+    <string name="menu_users_create">Cadastro de Usuários</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID:</string>
+    <string name="id_do_usu_rio">id do usuário</string>
+    <string name="nome_razao">Nome ou Razão Social:</string>
+    <string name="nome_razao_cliente">Nome ou Razão Social do Cliente</string>
+    <string name="cgccpf">CPF ou CNPJ:</string>
+    <string name="cgccpf_view">CPF ou CNPJ do Cliente</string>
+</resources>

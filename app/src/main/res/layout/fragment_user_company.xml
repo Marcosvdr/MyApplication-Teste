@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_razao_social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Razão Social"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_razao_social_required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="*"
+            android:textSize="16sp"
+            android:textColor="#FF0000"
+            android:layout_toEndOf="@id/text_razao_social"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_razao_social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_razao_social"
+            android:hint="Digite sua razão social"
+            android:inputType="text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_nome_fantasia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Fantasia"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_nome_fantasia_required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="*"
+            android:textSize="16sp"
+            android:textColor="#FF0000"
+            android:layout_toEndOf="@id/text_nome_fantasia"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_nome_fantasia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nome_fantasia"
+            android:hint="Digite seu nome fantasia"
+            android:inputType="text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_cnpj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CNPJ"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/text_cnpj_required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="*"
+            android:textSize="16sp"
+            android:textColor="#FF0000"
+            android:layout_toEndOf="@id/text_cnpj"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/edit_cnpj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_cnpj"
+            android:hint="Digite seu CNPJ"
+            android:inputType="number"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Cadastrar"/>
+
+</LinearLayout>
